@@ -9,10 +9,11 @@ class SplashPage extends StatelessWidget {
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-            image: DecorationImage(
-          image: AssetImage('assets/images/bg_dog.jpg'),
-          fit: BoxFit.cover,
-        )),
+          image: DecorationImage(
+            image: AssetImage('assets/images/bg_dog.jpg'),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
